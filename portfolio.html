@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="portfolio.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!--  NAVBAR -->
+    <nav>
+      <div class="left">
+        <a href="#">Hamid Khan</a>
+      </div>
+      <div class="right">
+        <a href="http://github.com" target="_blank">
+          <i class="fa-brands fa-github"></i>
+          <span>Github</span>
+        </a>
+        <a href="http://linkedin.com" target="_blank">
+          <i class="fa-brands fa-linkedin"></i>
+          <span>Linkedin</span>
+        <a href="mailto:hamidkhan@gmail.com" target="_blank">
+          <i class="fa-solid fa-envelope"></i>
+          <span>Email</span>
+        </a>
+      </div>
+    </nav>
+    <main>
+      <!-- section 1:hero -->
+      <section class="hero-section">
+        <div class="text">
+          <h2>Hi! I'm Hamid &#x1F44B</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus doloribus
+             dolore atque! Eius, minus ipsam. Saepe perferendis iusto animi facilis tempore.
+              Animi aperiam, aut beatae veritatis accusamus architecto facilis officiis delectus.
+               Alias aliquam reiciendis qui sit dicta numquam nulla commodi, tempora, omnis vitae
+                deleniti vel. Explicabo tenetur ea consequatur temporibus.
+              </p>
+              <div class="links">
+                <a href="#skills">
+                  <i class="fa-solid fa-code"></i>
+                  <span>Skills</span>
+                </a>
+                <a href="#testimony">
+                  <i class="fa-solid fa-pen"></i>
+                  <span>Testimony</span>
+                </a>
+                <a href="#contact">
+                  <i class="fa-solid fa-envelope"></i>
+                  <span>Contact</span>
+                </a>
+              </div>
+        </div>
+
+        <div class="headshot">
+          <img src="img/hero-headshot.webp" alt="Hamid Khan">
+        </div>
+      </section>
+
+
+      <!-- section 2:skills -->
+      <section id="skills" class="skills-section">
+        <h2>Skills</h2>
+        <div class="text">Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+           Quibusdam obcaecati saepe eveniet dolores impedit, ad, tempora expedita 
+           sint esse consequuntur excepturi corrupti fuga animi! Molestiae voluptatum
+            atque suscipit id in.</div>
+            <div class="cells">
+              <div class="cell">
+                <img src="img/html-logo.webp" alt="html-logo">
+                <span>HTML</span>
+              </div>
+              <div class="cell">
+                <img src="img/css-logo.webp" alt="css-logo">
+                <span>CSS</span>
+              </div>
+              <div class="cell">
+                <img src="img/javascript-logo.webp" alt="javascript-logo">
+                <span>JAVASCRIPT</span>
+              </div>
+              <div class="cell">
+                <img src="img/node-logo.webp" alt="node-logo">
+                <span>NODE.js</span>
+              </div>
+              <div class="cell">
+                <img src="img/react-logo.webp" alt="react-logo">
+                <span>REACT.js</span>
+              </div>
+              
+            </div>
+      </section>
+
+
+      <!-- section 3:testimony -->
+      <section id="testimony" class="testimony-section">
+         <h2>Testimony</h2>
+
+         
+         <div class="group">
+          <div class="person-details">
+            <img src="img/testimony.webp" alt="minons">
+            <p>Abir bai</p>
+            <p>Lorem, ipsum dolor.</p>
+          </div>
+
+
+          <div class=".text">
+            "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quam aliquid veniam dolor dicta in?
+             Fugit cumque sint corrupti enim esse, tempore quas neque iusto eos? Illum
+              asperiores cupiditate voluptas quod excepturi eligendi, deleniti debitis in 
+              officia, suscipit architecto voluptatem.""
+          </div>
+         </div>
+      </section>
+
+
+      <!-- section 4:contact -->
+      <section id="contact" class="contact-section">
+        <h2>Contact</h2>
+        <div class="group">
+          <div class="text">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora aperiam, saepe
+             quas rem ea corporis quam perferendis totam dolor unde? Asperiores rerum natus et
+              recusandae nostrum ex, reprehenderit fugit deserunt necessitatibus quae modi 
+              molestiae perspiciatis nobis quo quasi quas atque possimus ipsam adipisci, unde 
+              eaque? Repudiandae quod nostrum blanditiis iusto.
+          </div>
+
+          <form action="">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" placeholder="enter your name">
+
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" placeholder="enter your email">
+
+            <label for="message">Message</label>
+            <textarea name="message" id="message" cols="30" rows="10" placeholder="write your message"></textarea>
+
+            <button type="submit">Send Message</button>
+
+
+          </form>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
